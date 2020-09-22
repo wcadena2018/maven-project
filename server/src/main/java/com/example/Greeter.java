@@ -13,8 +13,9 @@ public class Greeter {
   }
 
    /**
-   *obtener y desplegar texto que entra como parametro.
-   */ 
+   * @param someone el nombre de una persona.
+   * @return saludar a la persona.
+   */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
